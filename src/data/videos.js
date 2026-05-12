@@ -91,9 +91,9 @@ export const guyGuyWorldVideos = guyGuyWorldUrls.map((u) =>
 
 // De-duplicate by video ID across all sections for the "All Movies" page
 const allRaw = [
+  ...recentMoviesVideos,
   ...strangeWandererVideos,
   ...earlyMoviesVideos,
-  ...recentMoviesVideos,
   ...guyGuyWorldVideos,
 ];
 
